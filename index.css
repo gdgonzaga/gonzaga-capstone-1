@@ -76,8 +76,19 @@ section {
   padding-bottom: 3rem;
 }
 
-.projects .card {
-  vertical-align: top;
+#projects .carousel {
+  max-width: 400px;
+  display: block;
+  margin: 3em auto;
+}
+
+#projects .carousel-inner {
+  min-height: 60vh;
+}
+
+#projects span {
+    font-size: 0.6em;
+    color: #888888;
 }
 
 .content {

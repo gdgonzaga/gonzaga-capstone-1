@@ -131,15 +131,39 @@
           <div class="v-center">
             <div data-aos="fade-up">
               <h3><img src="images/portfolio.png"> Projects</h3>
-              <div class="d-flex mx-auto flex-column flex-md-row flex-wrap justify-content-center fit">
-                <div class="card my-3 mx-3" style="width: 18rem;">
-                  <a href="images/cap1.jpg" target="_blank"><img class="card-img-top" src="images/cap1.jpg" alt="Card image cap"></a>
-                  <div class="card-body">
-                    <h5 class="card-title">Portfolio site</h5>
-                    <p class="card-text">A responsive, single-page site coded in HTML, CSS and Bootstrap.</p>
+              <!--Carousel-->
+              <div id="projectCarousel" class="carousel slide mx-auto w-75" data-ride="carousel">
+                <div class="carousel-inner mx-auto w-100">
+                  <div class="carousel-item active">
+                    <div class="card my-3 mx-auto">
+                      <img class="card-img-top" src="images/cap1.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Portfolio site <span>(1/2)</span></h5>
+                        <p class="card-text">A responsive, single-page site coded in HTML, CSS and Bootstrap.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="card my-3 mx-auto">
+                      <img class="card-img-top" src="images/cap2.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">E commerce site <span>(2/2)</span></h5>
+                        <p class="card-text">Capstone project 2</p>
+                      </div>
+                    </div>
                   </div>
                 </div>
+               <a class="carousel-control-prev" type="button" data-target="#projectCarousel" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" type="button" data-target="#projectCarousel" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
               </div>
+              <!--Carousel End-->
+
             </div>
           </div>
         </section>
