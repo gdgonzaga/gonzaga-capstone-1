@@ -6,7 +6,13 @@
 
 body {
   font-family: 'Cabin', sans-serif;
+
 }
+
+nav + div {
+    max-width: 1440px;
+}
+
 
 #landing {
   font-size: 2rem;
@@ -31,8 +37,11 @@ nav img {
 
 
 section {
+  max-width: 1440px;
   padding: 3rem 2rem;
   height: 100vh;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 /* Center vertically
@@ -69,11 +78,6 @@ section {
 
 .skill img {
   margin-bottom: 1rem;
-}
-
-.container section {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
 }
 
 #projects .carousel {
